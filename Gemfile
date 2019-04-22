@@ -8,6 +8,7 @@ group :development, :test do
   gem 'cucumber-rails'
   gem 'capybara'
   gem 'poltergeist'
+  gem 'phantomjs'
     
 end
 
