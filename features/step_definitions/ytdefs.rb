@@ -57,7 +57,7 @@ end
 
 
 When("I click on the share button") do
-    find('button[aria-label=Share]').trigger('click')
+    find('button[aria-label=Share]').click
 end
 
 Then("Share options are shown") do
@@ -66,7 +66,7 @@ Then("Share options are shown") do
 end
 
 When("I click on the configuration button") do
-   find('button[aria-label=Settings]').trigger('click') 
+   find('button[aria-label=Settings]').click
 end
 
 Then("Configuration properties are shown") do
