@@ -7,8 +7,5 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'cucumber-rails'
   gem 'capybara'
-  gem 'poltergeist'
-  gem 'phantomjs'
-    
 end
 
