@@ -57,12 +57,12 @@ end
 
 
 When("I click on the share button") do
-    find('button[aria-label=Share]').click
+    find('button[aria-label=Compartir]').click
 end
 
 Then("Share options are shown") do
     puts page.inspect
-    page.has_content?('Copyr')
+    page.has_content?('Copy')
 end
 
 When("I click on the configuration button") do
